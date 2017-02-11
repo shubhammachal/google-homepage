@@ -1,1 +1,1 @@
-simple google homepage
+google homepage
