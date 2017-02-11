@@ -1,0 +1,119 @@
+body,html{
+	font-size: small;
+	height: 100%;
+	margin:0;
+}
+body{
+	background: #fff;
+	color:white;
+	font-family: arial,sans-serif;
+}
+.top_nav{
+	position: relative;
+	top:10px;
+	height:30px;
+	width: 100%;
+}
+#app_launcher_icon {
+  height: 17px;
+  width: 17px;
+  opacity: 0.5;
+}
+#bell{
+	height:17px;
+	width:17px;
+	opacity:0.5;
+}
+.top_nav_ul{
+	
+	height: 30px;
+	width: 100%;
+}
+.top_nav_ul ul{
+	list-style-type: none;
+	position: absolute;
+}
+.top_nav_ul a{
+	text-decoration: none;
+	color: #545453;
+}
+#app_launcher_icon: hover{
+	opacity: 1;
+
+}
+.top_nav_ul li{
+	display: inline;
+	padding: 5px;
+	float:left;
+	position: relative;
+	left:1100px;
+}
+.logo{
+	padding-top: 100px;
+	margin-top: 70px;
+
+}
+.logo img{
+	margin:auto;
+	display: block;
+}
+.search{
+	margin-left: 390px;
+	padding-top: 20px;
+
+
+}
+.Search input {
+     height: 40px;
+     width: 600px;
+     box-sizing: border-box;
+  	 box-shadow: 0.3px 1px 0px 0px #cec0c0;
+  	 border: 0.5px solid #ebebeb;
+     font-size: 15px;
+     padding-left: 15px;
+
+}
+#google_search_button {
+  width: 140px;
+}
+#feeling_lucky_button {
+  width: 155px;
+}
+#feeling_lucky_button, #google_search_button {
+  height: 36px;
+  padding: 0 16px;
+  margin: 11px 4px;
+  color: #757575;
+  font-size: 12.5px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav_bottom a{
+	text-decoration: none;
+	color:#666;
+	padding: 30px;
+}
+.nav_bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	line-height: 25px;
+	
+
+}
+.nav_bottom_links_left{
+	display: inline;
+	float:left;
+}
+.nav_bottom_links_right{
+	float:right;
+	display: inline;
+}
+a:hover{
+	text-decoration: underline;
+}
+.buttons:hover{
+	font-size: 150%;
+}
